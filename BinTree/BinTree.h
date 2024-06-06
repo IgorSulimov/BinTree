@@ -11,37 +11,37 @@ typedef struct BinTreeNode
 
 }BinTreeNode;
 
-void Print_BinTree(BinTreeNode* tree_); // Обход по дереву от меньшего к большему
+void Print_BinTree(BinTreeNode* tree_); // РћР±С…РѕРґ РїРѕ РґРµСЂРµРІСѓ РѕС‚ РјРµРЅСЊС€РµРіРѕ Рє Р±РѕР»СЊС€РµРјСѓ
 
-void Prefix_Traverse(BinTreeNode* tree_, void(*fptr)(BinTreeNode* node_));// Префиксный обход по дереву
+void Prefix_Traverse(BinTreeNode* tree_, void(*fptr)(BinTreeNode* node_));// РџСЂРµС„РёРєСЃРЅС‹Р№ РѕР±С…РѕРґ РїРѕ РґРµСЂРµРІСѓ
 
-BinTreeNode* CreateNode(int data_); // Создание элемента для дерева
+BinTreeNode* CreateNode(int data_); //РЎРѕР·РґР°РЅРёРµ СЌР»РµРјРµРЅС‚Р° РґР»СЏ РґРµСЂРµРІР°
 
-BinTreeNode* Find(BinTreeNode* tree, int data); // Нахождение елемента в дереве  №1
+BinTreeNode* Find(BinTreeNode* tree, int data); //РќР°С…РѕР¶РґРµРЅРёРµ РµР»РµРјРµРЅС‚Р° РІ РґРµСЂРµРІРµ В№1
 
-void Insert(BinTreeNode** tree_, BinTreeNode* node_); // Добавление элемента в дерево   №1
+void Insert(BinTreeNode** tree_, BinTreeNode* node_); //Р”РѕР±Р°РІР»РµРЅРёРµ СЌР»РµРјРµРЅС‚Р° РІ РґРµСЂРµРІРѕ   В№1
 
-void Remove(BinTreeNode* tree_, int data_);// Удаление элемента дерева   №1
+void Remove(BinTreeNode* tree_, int data_);//РЈРґР°Р»РµРЅРёРµ СЌР»РµРјРµРЅС‚Р° РґРµСЂРµРІР°   В№1
 
-int Sum_BinTree(BinTreeNode* tree_); // Сумма элементов дерева № 2
+int Sum_BinTree(BinTreeNode* tree_); // РЎСѓРјРјР° СЌР»РµРјРµРЅС‚РѕРІ РґРµСЂРµРІР°  В№ 2
 
-int Max_element(BinTreeNode* tree_);// Максимальный элемент в дереве  №3
+int Max_element(BinTreeNode* tree_);//РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№ СЌР»РµРјРµРЅС‚ РІ РґРµСЂРµРІРµ  В№3
 
-int Min_element(BinTreeNode* tree_);// Минимальный элемент в дереве   №4
+int Min_element(BinTreeNode* tree_);// РњРёРЅРёРјР°Р»СЊРЅС‹Р№ СЌР»РµРјРµРЅС‚ РІ РґРµСЂРµРІРµ   В№4
 
-int RepeatEl(BinTreeNode* tree_, int data_);  // Количество повторяющихся элементов в дереве № 5
+int RepeatEl(BinTreeNode* tree_, int data_);  // РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕРІС‚РѕСЂСЏСЋС‰РёС…СЃСЏ СЌР»РµРјРµРЅС‚РѕРІ РІ РґРµСЂРµРІРµ В№ 5
 
-void Print_List(BinTreeNode* tree_); // Вывод всех листьев дерева №6
+void Print_List(BinTreeNode* tree_); // Р’С‹РІРѕРґ РІСЃРµС… Р»РёСЃС‚СЊРµРІ РґРµСЂРµРІР° В№6
 
-int Max_Depth(BinTreeNode* tree_); // Максимальная глубина дерева № 10
+int Max_Depth(BinTreeNode* tree_); //РњР°РєСЃРёРјР°Р»СЊРЅР°СЏ РіР»СѓР±РёРЅР° РґРµСЂРµРІР° В№ 10
 
-int Find_Depth(BinTreeNode* tree_, int data_, int depth); // Определяет глубину заданного элемента №8
+int Find_Depth(BinTreeNode* tree_, int data_, int depth); // РћРїСЂРµРґРµР»СЏРµС‚ РіР»СѓР±РёРЅСѓ Р·Р°РґР°РЅРЅРѕРіРѕ СЌР»РµРјРµРЅС‚Р° В№8
 
 void Sort(int* ar2, BinTreeNode* tree, int k);
 
 void Sorted_BinTree(int* array, BinTreeNode* tree_);
 
-int Num_dep_el(BinTreeNode* tree_, int depth); // Определяет число всех вершин в заданной глубине № 9
+int Num_dep_el(BinTreeNode* tree_, int depth); // РћРїСЂРµРґРµР»СЏРµС‚ С‡РёСЃР»Рѕ РІСЃРµС… РІРµСЂС€РёРЅ РІ Р·Р°РґР°РЅРЅРѕР№ РіР»СѓР±РёРЅРµ В№ 9
 
 
 
